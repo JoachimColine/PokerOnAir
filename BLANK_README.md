@@ -40,9 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Poker On Air][product-screenshot]](https://example.com)
-
-The Poker On Air project aims at designing and assembling a poker table that is able to both compute and display winning odds of each player, based on RFID-based card detection.
+The [![Poker On Air][product-screenshot]](https://example.com) project aims at designing and assembling a poker table that is able to both compute and display winning odds of all players using RFID-based card detection.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
