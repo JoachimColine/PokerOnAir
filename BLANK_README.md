@@ -41,7 +41,7 @@
   <h3 align="center">Poker On Air</h3>
 
   <p align="center">
-    A real-time poker equity visualization tool 
+    A Real-Time Poker Equity Visualization Tool 
     <br />
     <a href="https://github.com/JoachimColine/PokerOnAir">View Demo</a>
     ·
