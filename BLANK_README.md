@@ -76,7 +76,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Poker On Air][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -186,5 +186,5 @@ Project Link: [https://github.com/JoachimColine/PokerOnAir](https://github.com/J
 [license-shield]: https://img.shields.io/github/license/JoachimColine/repo.svg?style=flat-square
 [license-url]: https://github.com/JoachimColine/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/JoachimColine
+[linkedin-url]: https://linkedin.com/in/joachim-coline
 [product-screenshot]: images/screenshot.png
