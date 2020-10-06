@@ -153,7 +153,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [![LinkedIn][linkedin-shield]][linkedin-url] - joachim.coline@gmail.com
+Joachim Coline [![LinkedIn][linkedin-shield]][linkedin-url]
 
 Project Link: [https://github.com/JoachimColine/PokerOnAir](https://github.com/JoachimColine/PokerOnAir)
 
