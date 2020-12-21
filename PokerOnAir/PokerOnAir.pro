@@ -17,14 +17,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp \
+    PokerOnAirWindow.cpp \
     OMPEval/omp/CardRange.cpp \
     OMPEval/omp/CombinedRange.cpp \
     OMPEval/omp/EquityCalculator.cpp \
     OMPEval/omp/HandEvaluator.cpp \
+    OMPEval/test.cpp \
+    Game.cpp
 
 HEADERS += \
-    mainwindow.h \
+    PokerOnAirWindow.h \
     OMPEval/libdivide/libdivide.h \
     OMPEval/omp/CardRange.h \
     OMPEval/omp/CombinedRange.h \
@@ -32,7 +34,9 @@ HEADERS += \
     OMPEval/omp/Hand.h \
     OMPEval/omp/HandEvaluator.h \
     OMPEval/omp/Random.h \
-    OMPEval/omp/Util.h
+    OMPEval/omp/Util.h \
+    OMPEval/ttest/ttest.h \
+    Game.h
 
 
 

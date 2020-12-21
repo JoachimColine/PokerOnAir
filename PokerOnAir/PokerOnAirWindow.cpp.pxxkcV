@@ -1,0 +1,29 @@
+#include "PokerOnAirWindow.h"
+#include "OMPEval/test.cpp"
+
+using namespace std;
+using namespace omp;
+
+PokerOnAirWindow::PokerOnAirWindow(QWidget *parent)
+    : QMainWindow(parent)
+{
+    printBuildInfo();
+    cout << endl << "=== Tests ===" << endl;
+    cout << "Util:" << endl;
+    UtilTest().run();
+    cout << "Hand:" << endl;
+    HandTest().run();
+    cout << "HandEvaluator:" << endl;
+    HandEvaluatorTest().run();
+    cout << "EquityCalculator:" << endl;
+    EquityCalculatorTest().run();
+}
+
+PokerOnAirWindow::~PokerOnAirWindow()
+{
+}
+
+void PokerOnAirWindow::initialize()
+{
+
+}

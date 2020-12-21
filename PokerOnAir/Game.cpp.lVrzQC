@@ -1,0 +1,17 @@
+#include "Game.h"
+#include "OMPEval/test.cpp"
+
+Game::Game(parent)
+    : QObject(parent)
+{
+}
+
+Game::~Game()
+{
+	
+}
+
+void Game::initialize()
+{
+
+}

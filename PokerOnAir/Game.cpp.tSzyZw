@@ -1,0 +1,16 @@
+#include "Game.h"
+
+Game::Game(QWidget *parent = nullptr)
+    : QObject(parent)
+{
+}
+
+Game::~Game()
+{
+	
+}
+
+void Game::initialize()
+{
+
+}

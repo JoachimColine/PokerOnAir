@@ -1,0 +1,50 @@
+#include <QObject>
+
+class Game : public QObject
+{
+    Q_OBJECT
+
+public:
+    Game(QWidget *parent = nullptr);
+    ~Game();
+
+private:
+    void initialize();
+};
+
+class Table : public QObject
+{
+    Q_OBJECT
+
+public:
+    Table(Game *parent = nullptr);
+    ~Table();
+
+private:
+    void initialize();
+};
+
+class Player : public QObject
+{
+    Q_OBJECT
+
+public:
+    Player(Player *parent = nullptr);
+    ~Player();
+
+private:
+    void initialize();
+};
+
+class Deck : public QObject
+{
+    Q_OBJECT
+
+public:
+    Player(Player *parent = nullptr);
+    ~Player();
+
+private:
+    void initialize();
+};
+

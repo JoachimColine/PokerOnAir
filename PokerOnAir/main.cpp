@@ -1,11 +1,11 @@
-#include "mainwindow.h"
+#include "PokerOnAirWindow.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    PokerOnAirWindow poaw;
+    poaw.show();
     return a.exec();
 }

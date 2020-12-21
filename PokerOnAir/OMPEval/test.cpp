@@ -412,7 +412,7 @@ int main()
     EquityCalculatorTest().run();
 
     cout << endl << endl << "=== Benchmarks ===" << endl;
-    void benchmark();
-    benchmark();
+    //void benchmark();
+    //benchmark();
     cout << endl << "Done." << endl;
 }
