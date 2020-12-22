@@ -55,7 +55,7 @@ class Game : public QObject
     Q_OBJECT
 
 public:
-    Game();
+    Game(QWidget *parent = nullptr);
     ~Game();
 
 private slots:
@@ -64,5 +64,6 @@ private slots:
 
 private:
     Table* m_table;
+    QWidget* m_parent;
 };
 

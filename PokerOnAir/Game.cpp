@@ -5,10 +5,11 @@ using namespace std;
 using namespace omp;
 
 
-Game::Game()
+Game::Game(QWidget *parent)
     : QObject()
 {
-
+    m_parent = parent;
+    initialize();
 }
 
 Game::~Game()
@@ -79,17 +80,17 @@ Deck::~Deck()
 
 }
 
-void Deck::initialize()
+void Deck::initialize(QList<Player *> players)
+{
+    m_players = players;
+}
+
+void Deck::deal()
 {
 
 }
 
-void Deck::deal(QList<Player *> players)
-{
-
-}
-
-void Deck::gather(QList<Player *> players)
+void Deck::gather()
 {
 
 }

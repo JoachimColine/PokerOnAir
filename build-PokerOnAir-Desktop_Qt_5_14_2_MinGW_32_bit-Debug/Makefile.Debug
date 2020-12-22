@@ -243,6 +243,8 @@ debug/moc_PokerOnAirWindow.cpp: ../PokerOnAir/PokerOnAirWindow.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui/qtouchdevice.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtWidgets/qtabwidget.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui/qicon.h \
+		../PokerOnAir/Game.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/QObject \
 		debug/moc_predefs.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/bin/moc.exe
 	C:\Qt\Qt5.14.2\5.14.2\mingw73_32\bin\moc.exe $(DEFINES) --include C:/pokeronair/PokerOnAir/build-PokerOnAir-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt5.14.2/5.14.2/mingw73_32/mkspecs/win32-g++ -IC:/pokeronair/PokerOnAir/PokerOnAir -IC:/Qt/Qt5.14.2/5.14.2/mingw73_32/include -IC:/Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtWidgets -IC:/Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui -IC:/Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtANGLE -IC:/Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore -I. -IC:/Qt/Qt5.14.2/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.14.2/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32 -IC:/Qt/Qt5.14.2/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.14.2/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.14.2/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.14.2/Tools/mingw730_32/i686-w64-mingw32/include ..\PokerOnAir\PokerOnAirWindow.h -o debug\moc_PokerOnAirWindow.cpp
@@ -431,6 +433,8 @@ debug/main.o: ../PokerOnAir/main.cpp ../PokerOnAir/PokerOnAirWindow.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui/qtouchdevice.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtWidgets/qtabwidget.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui/qicon.h \
+		../PokerOnAir/Game.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/QObject \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtWidgets/QApplication \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtWidgets/qapplication.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/qcoreapplication.h \
@@ -548,6 +552,8 @@ debug/PokerOnAirWindow.o: ../PokerOnAir/PokerOnAirWindow.cpp ../PokerOnAir/Poker
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui/qtouchdevice.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtWidgets/qtabwidget.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtGui/qicon.h \
+		../PokerOnAir/Game.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/QObject \
 		../PokerOnAir/OMPEval/test.cpp \
 		../PokerOnAir/OMPEval/omp/HandEvaluator.h \
 		../PokerOnAir/OMPEval/omp/Util.h \
@@ -646,7 +652,18 @@ debug/Game.o: ../PokerOnAir/Game.cpp ../PokerOnAir/Game.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/qmetatype.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/qvarlengtharray.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/qobject_impl.h
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_32/include/QtCore/qobject_impl.h \
+		../PokerOnAir/OMPEval/test.cpp \
+		../PokerOnAir/OMPEval/omp/HandEvaluator.h \
+		../PokerOnAir/OMPEval/omp/Util.h \
+		../PokerOnAir/OMPEval/omp/Constants.h \
+		../PokerOnAir/OMPEval/omp/Hand.h \
+		../PokerOnAir/OMPEval/omp/EquityCalculator.h \
+		../PokerOnAir/OMPEval/omp/CombinedRange.h \
+		../PokerOnAir/OMPEval/omp/Random.h \
+		../PokerOnAir/OMPEval/libdivide/libdivide.h \
+		../PokerOnAir/OMPEval/omp/CardRange.h \
+		../PokerOnAir/OMPEval/ttest/ttest.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\Game.o ..\PokerOnAir\Game.cpp
 
 debug/moc_PokerOnAirWindow.o: debug/moc_PokerOnAirWindow.cpp 

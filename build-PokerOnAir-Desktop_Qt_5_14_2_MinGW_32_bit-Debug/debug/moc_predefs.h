@@ -28,7 +28,6 @@
 #define __GCC_IEC_559 2
 #define __FLT32X_DECIMAL_DIG__ 17
 #define __FLT_EVAL_METHOD__ 2
-#define __cpp_binary_literals 201304
 #define __FLT64_DECIMAL_DIG__ 17
 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
 #define __cpp_variadic_templates 200704
@@ -54,6 +53,7 @@
 #define __UINTMAX_TYPE__ long long unsigned int
 #define __DEC32_EPSILON__ 1E-6DF
 #define __FLT_EVAL_METHOD_TS_18661_3__ 2
+#define __OPTIMIZE__ 1
 #define __UINT32_MAX__ 0xffffffffU
 #define __GXX_EXPERIMENTAL_CXX0X__ 1
 #define __LDBL_MAX_EXP__ 16384
@@ -99,7 +99,6 @@
 #define __FLT64X_MIN_10_EXP__ (-4931)
 #define __LDBL_HAS_QUIET_NAN__ 1
 #define __FLT64_MANT_DIG__ 53
-#define _REENTRANT 1
 #define __GNUC__ 7
 #define _cdecl __attribute__((__cdecl__))
 #define __GXX_RTTI 1
@@ -174,7 +173,6 @@
 #define __cdecl __attribute__((__cdecl__))
 #define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
 #define __UINT8_TYPE__ unsigned char
-#define __NO_INLINE__ 1
 #define __i386 1
 #define __FLT_MANT_DIG__ 24
 #define __LDBL_DECIMAL_DIG__ 21
@@ -315,7 +313,6 @@
 #define __DEC_EVAL_METHOD__ 2
 #define __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x
 #define __ORDER_BIG_ENDIAN__ 4321
-#define __cpp_runtime_arrays 198712
 #define __UINT64_TYPE__ long long unsigned int
 #define __UINT32_C(c) c ## U
 #define __INTMAX_MAX__ 0x7fffffffffffffffLL

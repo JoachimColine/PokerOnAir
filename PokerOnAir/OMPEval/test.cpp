@@ -397,10 +397,9 @@ void printBuildInfo()
     #endif
 }
 
-int main()
+int Main()
 {
     printBuildInfo();
-
     cout << endl << "=== Tests ===" << endl;
     cout << "Util:" << endl;
     UtilTest().run();
