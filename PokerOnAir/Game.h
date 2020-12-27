@@ -8,11 +8,16 @@ public:
     Player();
     ~Player();
 
+    bool isActive() { return m_hand.isEmpty(); };
+    std::string hand() { return m_hand.toStdString(); };
+    void deal(QString hand) { m_hand = hand; };
+    void fold() { m_hand.clear(); };
+
 private slots:
     void initialize();
 
 private:
-    QList<int> m_hand;
+    QString m_hand;
 };
 
 class Deck : public QObject
@@ -20,16 +25,19 @@ class Deck : public QObject
     Q_OBJECT
 
 public:
-    Deck();
+    Deck(QList<Player*> players);
     ~Deck();
 
 private slots:
     void initialize(QList<Player*> players);
+    void shuffle();
     void deal();
     void gather();
+    QString int2Str(int hand);
 
 private:
-    QList<int> m_dealtCards;
+    std::vector<int> m_deck;
+    std::vector<int> m_shuffledDeck;
     QList<Player*> m_players;
 };
 
@@ -61,6 +69,7 @@ public:
 private slots:
     void initialize();
     void doOMPEvalTests();
+    void doDebugTests();
 
 private:
     Table* m_table;
